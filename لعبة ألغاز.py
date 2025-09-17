@@ -131,8 +131,7 @@ class RiddleGameApp:
         self.riddles = [
             {"question": "ما هو الشيء الذي يمشي بلا أرجل؟", "answer": "الساعة"},
             {"question": "ما هو الشيء الذي كلما أخذت منه كبر؟", "answer": "الحفرة"},
-            {"question": "له أسنان ولا يعض، ما هو؟", "answer": "المشط"},
-            {"question": "ماهو الشيء الذي يشبه القلم ويكبر ويصغر", "answer": "الزب"},    
+            {"question": "له أسنان ولا يعض، ما هو؟", "answer": "المشط"},    
         ]
         self.current_riddle = None
         
@@ -223,4 +222,5 @@ class RiddleGameApp:
 if __name__ == "__main__":
     root = tk.Tk()
     app = RiddleGameApp(root)
+
     root.mainloop()
